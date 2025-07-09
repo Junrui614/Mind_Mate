@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f7fa;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #6c63ff;
+    color: #fff;
+    padding: 2rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 70vh;
+    padding: 2rem 1rem;
+}
+
+#chatbot {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(108,99,255,0.08);
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem 1.5rem;
+}
+
+#chat-window {
+    min-height: 200px;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+    border: 1px solid #ececec;
+    border-radius: 8px;
+    padding: 1rem;
+    background: #fafaff;
+}
+
+#chat-form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#user-input {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button[type="submit"]:hover {
+    background: #554ee0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #f0f0f0;
+    color: #888;
+    font-size: 0.9rem;
+}
