@@ -1,0 +1,11 @@
+# Node.js typical exclusions
+node_modules/
+npm-debug.log
+dist/
+build/
+.env
+.DS_Store
+*.log
+coverage/
+.idea/
+.vscode/
